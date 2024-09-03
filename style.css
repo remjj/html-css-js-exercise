@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .material-icons-outlined {
+    vertical-align: middle;
+    line-height: 1px;
+  }
+  
+  .navbar-brand > .material-icons-outlined {
+    font-size: 40px;
+  }
+  
+  .about > .material-icons-outlined {
+    font-size: 50px;
+  }
+  
+  .card > img {
+    height: 250px;
+  }
+  
+  .testimonial > img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  #map {
+    height: 300px;
+  }
+  
+  .circle {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(58, 87, 113);
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .circle span i {
+    font-size: 30px;
+  }
+  
+  .circle:hover {
+    background-color: rgb(10, 30, 49);
+  }
+  
+  h5 {
+    margin-top: 15px;
+  }
+  
+  .contact .btn3 {
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+  }
+  
+  /* Modal styles */
+  .modal-content {
+    border-radius: 8px;
+  }
+  
+  .modal-header {
+    border-bottom: none;
+    background-color: #f8f9fa;
+  }
+  
+  .modal-body {
+    padding: 2rem;
+  }
+  
+  .modal-footer {
+    border-top: none;
+    background-color: #f8f9fa;
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .btn-close {
+    background-color: #fff;
+    border: none;
+  }
+  
+  .btn-close:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .modal-body img {
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+  
+  .modal-dialog {
+    max-width: 90%;
+  }
+  
+  @media (min-width: 768px) {
+    .modal-dialog {
+      max-width: 80%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .modal-dialog {
+      max-width: 70%;
+    }
+  }
+  
